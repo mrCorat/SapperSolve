@@ -2,7 +2,7 @@
 1. Function to get neighbour cells
 Moore distance get cell as tuple of 2 integers and gives you list of cells of neighbour cells  which also are tuples of 2 integers? which has distance of [moore neighbours](https://en.wikipedia.org/wiki/Moore_neighborhood).
 |Scenarious|Values|
-|----|----|
+|----------|------|
 |Tuple of 2 integers|list of 8 neighbour tuple of 2 integer cells|
 |Not integer number|empty list|
 |Not correct size tuple| empty list|
@@ -16,7 +16,7 @@ Symbols card:
  - other - non-correct number
  In Testing we include all symbols
  |Parameter|Result|
- |-----|------|
+ |---------|------|
  |correct number|True|
  |9|False|
  |x|True|
@@ -34,7 +34,7 @@ Then class should changes values in alphabet {'0' - '8', 'x'}
 other element is number of bombs. It must be positive integer.
 Class Making
 |Parameters|Result|
-|---------|-------|
+|----------|-------|
 |Correct rectangle string without " "| Full Field System|
 |Correct rectangle string with " "| Full Field System|
 |Elements with not correct chars| Empty Field|
@@ -44,12 +44,12 @@ Class Making
 |size is not positive|Empty Field|
 Class get_entrance
 |Parameters|Result|
-|---------|-------|
+|----------|-------|
 |there is a zeros in entrance|cells with zeros|
 |there is no zeros|Exception of not correct int|
 Changing Class parameters
 |Parameters|Result|
-|---------|-------|
+|----------|-------|
 |Get char in correct cell|changing field in class|
 |Get char in non-correct cell| Exception of cell|
 |Get not correct char in cell|Exception of char|
