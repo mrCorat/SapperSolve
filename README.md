@@ -65,3 +65,6 @@ other element is number of bombs. It must be positive integer.
 |Get not char in cell|Exception of first type|
 |Get non 2-tuple type in parameter|Exception of second type|
 |Get correct char in cell|change field in class|
+
+# 4.Que-construct
+This is class, where we have sets saying information about 
